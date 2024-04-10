@@ -1,7 +1,7 @@
-# Define o alvo padrão 'all', que depende do alvo 'hello'
+# Define o target padrão 'all', que depende do alvo 'hello'
 all: hello
 
-# Define o alvo 'hello', que depende do arquivo 'hello.c'
+# Define o target 'hello', que depende do arquivo 'hello.c'
 hello: hello.c
     gcc -o hello hello.c # Compila 'hello.c' para criar o executável 'hello'
 
